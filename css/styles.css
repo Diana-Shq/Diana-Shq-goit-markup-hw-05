@@ -577,3 +577,7 @@ position: relative;
     display: block;
     margin-left: auto;
 }
+.modal-close:is(:hover, :focus){
+    background: var(--accent);
+    fill: var(--main-btn-color);
+}
