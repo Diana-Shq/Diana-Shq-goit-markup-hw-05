@@ -132,22 +132,15 @@ span {
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: var(--text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacs:is(:hover, :focus){
+    color: var(--accent);
 }
 
 .address-mail {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address-mail:hover,
-.address-mail:focus {
-    color: var(--accent);
 }
 .address-tel {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address-tel:hover,
-.address-tel:focus {
-    color: var(--accent);
 }
 .current{
 position: relative;
